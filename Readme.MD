@@ -1,3 +1,3 @@
 Dekorator  
-Obserwator
-Singleton
+Obserwator  
+Singleton  
