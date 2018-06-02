@@ -1,4 +1,4 @@
 Observator
 
-Wzorzec ułatwia obserwowanie obiektówi informowaniu o ich zmianach inne  
+Wzorzec ułatwia obserwowanie obiektów i informowaniu o ich zmianach inne  
 zainteresowane obiekty.  
