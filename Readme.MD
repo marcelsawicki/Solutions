@@ -1,3 +1,4 @@
 Dekorator  
 Obserwator  
 Singleton  
+Fabryka
