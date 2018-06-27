@@ -1,5 +1,5 @@
 Dekorator  
 Obserwator  
 Singleton  
-Fabryka
+Fabryka  
 Most
