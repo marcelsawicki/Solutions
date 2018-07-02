@@ -18,7 +18,7 @@ var scoreboard = {
 		var i, msg = '';
 		for (i in score) {
 			if (score.hasOwnProperty(i)) {
-				msg += '<p><strong>' + i + '<\ /strong>: ';
+				msg += '<p><strong>' + i + '<\/strong>: ';
 				msg += score[i];
 				msg += '<\/p>';
 			}
