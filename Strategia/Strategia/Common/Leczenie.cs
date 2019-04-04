@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Strategia
 {
-	class Leczenie
+	class Leczenie : IPracowac
 	{
+        public void Pracuj()
+        {
+            Console.WriteLine("Praca: leczy ludzi.");
+        }
 	}
 }

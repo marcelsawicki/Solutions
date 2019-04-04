@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Strategia
 {
-	class LiteraturaPopularnoNaukowa
+	class LiteraturaPopularnoNaukowa : ISpedzanieWolnegoCzasu
 	{
+        public void SpedzajWolnyCzas()
+        {
+            Console.WriteLine("Wolny czas: literatura popularno naukowa.");
+        }
 	}
 }

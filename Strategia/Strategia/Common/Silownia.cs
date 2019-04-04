@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Strategia
 {
-	class Silownia
+	public class Silownia : ISpedzanieWolnegoCzasu
 	{
+        public void SpedzajWolnyCzas()
+        {
+            Console.WriteLine("Wolny czas: silownia.");
+        }
 	}
 }

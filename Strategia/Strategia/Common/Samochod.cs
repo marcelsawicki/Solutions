@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Strategia
 {
-	class Samochod
+	class Samochod : IDojezdzac
 	{
+        public void Dojezdzaj()
+        {
+            Console.WriteLine("Dojazd: samochod.");
+        }
 	}
 }
