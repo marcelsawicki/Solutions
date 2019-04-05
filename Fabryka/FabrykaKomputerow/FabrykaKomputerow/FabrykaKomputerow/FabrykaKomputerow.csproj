@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Abstract\Komputer.cs" />
     <Compile Include="Common\IChlodzenie.cs" />
     <Compile Include="Common\IDysk.cs" />
     <Compile Include="Common\IFabrykaPodzespolowKomputerowych.cs" />
@@ -51,13 +52,16 @@
     <Compile Include="Common\IRam.cs" />
     <Compile Include="Model\DDR2.cs" />
     <Compile Include="Model\DDR3.cs" />
+    <Compile Include="Model\FabrykaKomputerow.cs" />
     <Compile Include="Model\Laptop\ChlodzenieDlaLaptopa.cs" />
     <Compile Include="Model\Laptop\DyskDlaLaptopa.cs" />
+    <Compile Include="Model\Laptop\Laptop.cs" />
     <Compile Include="Model\PC\ChlodzenieDlaPC.cs" />
     <Compile Include="Model\PC\DyskDlaPC.cs" />
     <Compile Include="Model\Laptop\GrafikaDlaLaptopa.cs" />
     <Compile Include="Model\PC\GrafikaDlaPC.cs" />
     <Compile Include="Model\Laptop\ProcesorDlaLaptopa.cs" />
+    <Compile Include="Model\PC\KomputerPC.cs" />
     <Compile Include="Model\PC\ProcesorDlaPC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
