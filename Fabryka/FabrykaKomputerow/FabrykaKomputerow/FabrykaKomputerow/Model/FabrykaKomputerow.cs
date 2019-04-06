@@ -1,12 +1,13 @@
-﻿using FabrykaKomputerow.Common.Abstract;
-using FabrykaKomputerow.Model.PC;
+﻿using FabrykaKomputerowProgram.Common.Abstract;
+using FabrykaKomputerowProgram.Model.Laptop;
+using FabrykaKomputerowProgram.Model.PC;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FabrykaKomputerow.Model
+namespace FabrykaKomputerowProgram.Model
 {
     class FabrykaKomputerow
     {
@@ -27,8 +28,9 @@ namespace FabrykaKomputerow.Model
             {
                 komputer = new KomputerPC(new FabrykaPodzespolowPC());
             }
-            else
+            else if(model.Equals("Laptop"))
             {
+                komputer = new KomputerLaptop(new FabrykaPodzespolowLaptop());
             }
 
             return komputer;

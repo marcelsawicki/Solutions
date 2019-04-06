@@ -55,10 +55,12 @@
     <Compile Include="Model\FabrykaKomputerow.cs" />
     <Compile Include="Model\Laptop\ChlodzenieDlaLaptopa.cs" />
     <Compile Include="Model\Laptop\DyskDlaLaptopa.cs" />
-    <Compile Include="Model\Laptop\Laptop.cs" />
+    <Compile Include="Model\Laptop\FabrykaPodzespolowLaptop.cs" />
+    <Compile Include="Model\Laptop\KomputerLaptop.cs" />
     <Compile Include="Model\PC\ChlodzenieDlaPC.cs" />
     <Compile Include="Model\PC\DyskDlaPC.cs" />
     <Compile Include="Model\Laptop\GrafikaDlaLaptopa.cs" />
+    <Compile Include="Model\PC\FabrykaPodzespolowPC.cs" />
     <Compile Include="Model\PC\GrafikaDlaPC.cs" />
     <Compile Include="Model\Laptop\ProcesorDlaLaptopa.cs" />
     <Compile Include="Model\PC\KomputerPC.cs" />

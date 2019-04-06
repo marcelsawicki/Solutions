@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FabrykaKomputerow.Common.Abstract
+namespace FabrykaKomputerowProgram.Common.Abstract
 {
     abstract class Komputer
     {
@@ -18,16 +18,19 @@ namespace FabrykaKomputerow.Common.Abstract
 
         public void InstalowanieOprogramowania()
         {
-            Console.WriteLine("Instaluje oprowgramowanie...");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Instaluje oprogramowanie...");
         }
 
         public void Pakowanie()
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Pakuje sprzet...");
         }
 
         public void Sprzedawanie()
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Sprzedaje sprzet...");
         }
     }

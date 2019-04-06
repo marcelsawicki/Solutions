@@ -6,13 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FabrykaKomputerowProgram.Model.PC
+namespace FabrykaKomputerowProgram.Model.Laptop
 {
-    class KomputerPC : Komputer
+    class KomputerLaptop : Komputer
     {
         private readonly IFabrykaPodzespolowKomputerowych _fabrykaPodzespolowKomputerowych;
 
-        public KomputerPC(IFabrykaPodzespolowKomputerowych fabrykaPodzespolowKomputerowych)
+        public KomputerLaptop(IFabrykaPodzespolowKomputerowych fabrykaPodzespolowKomputerowych)
         {
             _fabrykaPodzespolowKomputerowych = fabrykaPodzespolowKomputerowych;
             Skladanie();
