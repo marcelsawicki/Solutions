@@ -8,6 +8,6 @@ namespace FabrykaKomputerow.Common
 {
     interface IProcesor
     {
-        IProcesor dostarczProcesor();
+        IProcesor DostarczProcesor();
     }
 }

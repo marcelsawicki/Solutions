@@ -11,7 +11,7 @@ namespace FabrykaKomputerow.Model
     {
         private string name = "Grafika dla PC";
 
-        public IGrafika dostarczGrafike()
+        public IGrafika DostarczGrafike()
         {
             Console.WriteLine("Dodaje: " + name);
             return new GrafikaDlaPC();

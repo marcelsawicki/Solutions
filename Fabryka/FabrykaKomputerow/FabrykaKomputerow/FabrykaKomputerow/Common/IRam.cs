@@ -8,6 +8,6 @@ namespace FabrykaKomputerow.Common
 {
     interface IRam
     {
-        IRam dostarczRam();
+        IRam DostarczRam();
     }
 }

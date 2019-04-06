@@ -9,27 +9,27 @@ namespace FabrykaKomputerow.Model.PC
 {
     class FabrykaPodzespolowPC : IFabrykaPodzespolowKomputerowych
     {
-        public IDysk produkujDysk()
+        public IDysk ProdukujDysk()
         {
             return new DyskDlaPC();
         }
 
-        public IGrafika produkujGrafike()
+        public IGrafika ProdukujGrafike()
         {
             return new GrafikaDlaPC();
         }
 
-        public IRam produkujRam()
+        public IRam ProdukujRam()
         {
             return new DDR2();
         }
 
-        public IProcesor produkujProcesor()
+        public IProcesor ProdukujProcesor()
         {
             return new ProcesorDlaPC();
         }
 
-        public IChlodzenie produkujChlodzenie()
+        public IChlodzenie ProdukujChlodzenie()
         {
             return new ChlodzenieDlaPC();
         }

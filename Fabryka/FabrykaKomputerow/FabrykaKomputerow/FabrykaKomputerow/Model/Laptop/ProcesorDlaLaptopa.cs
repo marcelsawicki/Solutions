@@ -11,7 +11,7 @@ namespace FabrykaKomputerow.Model
     {
         private string name = "Procesor dla laptopa";
 
-        public IProcesor dostarczProcesor()
+        public IProcesor DostarczProcesor()
         {
             Console.WriteLine("Dodaje: " + name);
             return new ProcesorDlaLaptopa();

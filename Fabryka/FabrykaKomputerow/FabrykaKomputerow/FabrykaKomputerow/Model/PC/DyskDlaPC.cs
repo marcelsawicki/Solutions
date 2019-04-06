@@ -11,7 +11,7 @@ namespace FabrykaKomputerow.Model
     {
         private string name = "Dysk dla PC";
 
-        public IDysk dostarczDysk()
+        public IDysk DostarczDysk()
         {
             Console.WriteLine("Dodaje: " + name);
             return new DyskDlaPC();

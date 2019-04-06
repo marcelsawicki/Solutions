@@ -11,7 +11,7 @@ namespace FabrykaKomputerow.Model.Laptop
     {
         private string name = "Chlodzenie dla laptopa";
 
-        public IChlodzenie dostarczChlodzenie()
+        public IChlodzenie DostarczChlodzenie()
         {
             Console.WriteLine("Dodaje: " + name);
             return new ChlodzenieDlaLaptopa();
