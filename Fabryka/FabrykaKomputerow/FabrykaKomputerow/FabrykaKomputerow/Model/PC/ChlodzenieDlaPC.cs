@@ -9,5 +9,12 @@ namespace FabrykaKomputerow.Model.PC
 {
     class ChlodzenieDlaPC : IChlodzenie
     {
+        private string name = "Chlodzenie dla PC";
+
+        public IChlodzenie dostarczChlodzenie()
+        {
+            Console.WriteLine("Dodaje: " + name);
+            return new ChlodzenieDlaPC();
+        }
     }
 }

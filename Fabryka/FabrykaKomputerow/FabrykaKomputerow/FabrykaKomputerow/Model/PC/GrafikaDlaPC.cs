@@ -9,5 +9,12 @@ namespace FabrykaKomputerow.Model
 {
     class GrafikaDlaPC : IGrafika
     {
+        private string name = "Grafika dla PC";
+
+        public IGrafika dostarczGrafike()
+        {
+            Console.WriteLine("Dodaje: " + name);
+            return new GrafikaDlaPC();
+        }
     }
 }

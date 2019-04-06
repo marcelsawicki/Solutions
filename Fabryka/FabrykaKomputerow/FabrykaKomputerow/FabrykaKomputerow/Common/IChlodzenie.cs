@@ -8,5 +8,6 @@ namespace FabrykaKomputerow.Common
 {
     interface IChlodzenie
     {
+        IChlodzenie dostarczChlodzenie();
     }
 }

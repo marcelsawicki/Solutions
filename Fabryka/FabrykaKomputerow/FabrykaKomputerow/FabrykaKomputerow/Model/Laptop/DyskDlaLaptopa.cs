@@ -9,5 +9,12 @@ namespace FabrykaKomputerow.Model
 {
     class DyskDlaLaptopa : IDysk
     {
+        private string name = "Dysk dla laptopa";
+
+        public IDysk dostarczDysk()
+        {
+            Console.WriteLine("Dodaje: " + name);
+            return new DyskDlaLaptopa();
+        }
     }
 }

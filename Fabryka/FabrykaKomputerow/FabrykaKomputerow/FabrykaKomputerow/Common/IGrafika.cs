@@ -8,5 +8,6 @@ namespace FabrykaKomputerow.Common
 {
     interface IGrafika
     {
+        IGrafika dostarczGrafike();
     }
 }

@@ -9,5 +9,12 @@ namespace FabrykaKomputerow.Model
 {
     class DDR2 : IRam
     {
+        private string name = "DDR2";
+
+        public IRam dostarczRam()
+        {
+            Console.WriteLine("Dodaje: " + name);
+            return new DDR2();
+        }
     }
 }

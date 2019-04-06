@@ -9,5 +9,12 @@ namespace FabrykaKomputerow.Model
 {
     class ProcesorDlaPC : IProcesor
     {
+        private string name = "Procesor dla PC";
+
+        public IProcesor dostarczProcesor()
+        {
+            Console.WriteLine("Dodaje: " + name);
+            return new ProcesorDlaPC();
+        }
     }
 }
