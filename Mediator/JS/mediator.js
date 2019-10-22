@@ -59,7 +59,7 @@ var mediator = {
 		
 		if (e.which === 48) { // klawisz "0"
 			mediator.players.guest.play();
-			rerturn;
+			return;
 		}
 	}
 }
