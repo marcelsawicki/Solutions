@@ -1,7 +1,7 @@
 Dekorator  
-Fabryka
-Mediator
-Most
+Fabryka  
+Mediator  
+Most  
 Obserwator  
-Singleton
-Strategia 
+Singleton  
+Strategia  
