@@ -1,10 +1,10 @@
 {
     "compilerOptions": {
-      "target": "es6",
+      "target": "es2015",
       "module": "commonjs",
       "declaration": false,
       "noImplicitAny": false,
-      "sourceMap": true,
+      "sourceMap": false,
       "noLib": false,
       "suppressImplicitAnyIndexErrors": true
     },
