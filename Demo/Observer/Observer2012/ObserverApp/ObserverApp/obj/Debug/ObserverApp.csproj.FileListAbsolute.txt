@@ -1,0 +1,6 @@
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Observer\Observer2012\ObserverApp\ObserverApp\bin\Debug\ObserverApp.exe.config
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Observer\Observer2012\ObserverApp\ObserverApp\obj\Debug\ObserverApp.csprojResolveAssemblyReference.cache
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Observer\Observer2012\ObserverApp\ObserverApp\bin\Debug\ObserverApp.exe
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Observer\Observer2012\ObserverApp\ObserverApp\bin\Debug\ObserverApp.pdb
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Observer\Observer2012\ObserverApp\ObserverApp\obj\Debug\ObserverApp.exe
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Observer\Observer2012\ObserverApp\ObserverApp\obj\Debug\ObserverApp.pdb
