@@ -1,0 +1,6 @@
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Factory\ComputerFactory2012\FactoryApp1\FactoryApp1\bin\Debug\FactoryApp1.exe.config
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Factory\ComputerFactory2012\FactoryApp1\FactoryApp1\bin\Debug\FactoryApp1.exe
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Factory\ComputerFactory2012\FactoryApp1\FactoryApp1\bin\Debug\FactoryApp1.pdb
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Factory\ComputerFactory2012\FactoryApp1\FactoryApp1\obj\Debug\FactoryApp1.csprojResolveAssemblyReference.cache
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Factory\ComputerFactory2012\FactoryApp1\FactoryApp1\obj\Debug\FactoryApp1.exe
+C:\Users\Marcel\Desktop\Design-patterns\Demo\Factory\ComputerFactory2012\FactoryApp1\FactoryApp1\obj\Debug\FactoryApp1.pdb
