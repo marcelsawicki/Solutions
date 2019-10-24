@@ -6,7 +6,7 @@ import { IPerson } from './IPerson';
 export class PersonFactory {
     getPerson(dateOfBirth: Date): IPerson
     {
-        let dateNow = new Date(); // domyslnie dzisiejsza data
+        let dateNow = new Date(); // as default is set current date
         let currentMonth = dateNow.getMonth() + 1;
         let currentDate = dateNow.getDate();
 

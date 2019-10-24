@@ -14,9 +14,9 @@ export abstract class Person implements IPerson
     printDetails(): void
     {
         console.log('Person: ');
-        console.log('Data urodzenia: ' + `${ this.DateOfBirth.toDateString() }`);
-        console.log('Kategoria: ' + `${PersonCategory[this.Category]}`);
-        console.log('Moze podpisac?: ' + `${ this.canSignContracts() }`)
+        console.log('Date of birth: ' + `${ this.DateOfBirth.toDateString() }`);
+        console.log('Category: ' + `${PersonCategory[this.Category]}`);
+        console.log('Can sign contracts?: ' + `${ this.canSignContracts() }`)
     }
 
     printDetailsHTML(): string
