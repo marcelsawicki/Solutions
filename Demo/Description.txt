@@ -1,0 +1,69 @@
+Design Patterns
+
+Design Patterns: Elements of Reusable Object-Oriented Software
+
+	In the year 1995 Gang of Four has published the book about design patterns.
+	
+	The autors of this book - Erich Gamma, Richard Helm, Ralph Johnson and
+	John Vlissides - described in it a number of classic software design
+	patterns, which are a simple and elegant solution to common programming
+	problems.
+	
+	Factory, Observer, Composite and Singleton - probably most of you have heard about 
+	them or have used them.
+	
+	In my speech I would like to describe and explain with examples of five design patterns.
+	
+	I would like to introduce you: Factory, Strategy, Mediator, Observer and State.
+	
+	Let me explain at first the factory:
+	
+	(1)
+	
+	Factory allows you to create families of dependent or matched object in an abstract way,
+	without describing specific classes.
+	
+	* TypeScript example
+	
+	(2)
+	
+	The strategy pattern is a behavioral software pattern that enables selecting an algorithm at runtime.
+	Instead of implementing a single algorithm directly, code rceives run-time instructions as to which in 
+	a family of algorithms to use.
+	
+	(3)
+	
+	The mediator pattern defines an object that encapsulates how to set of objects interact.
+	
+	I have chosen a vary of programming languages to examples because I wanted to demostrate how universal
+	knowledge it is.
+	
+	To explain mediator I will show simple game written in JavaScript.
+	
+	*JavaScript example
+	
+	As you can see objects no longer communicate directly with each other, but instead of communicate throught the mediator.
+	
+	This reduces the dependencies between communicating objects, thereby reducing coupling.
+	
+	(4)
+	
+	The observer pattern is a software design pattern in which an object, called the subject, maintains a list of
+	its dependents, called observers and notifies them automatically of any state changes, usually by calling one of
+	their methods.
+	
+	C# example
+	
+	(5) 
+	
+	The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its
+	internal state changes.
+	
+	This pattern is set to solve two main problems:
+	- an object should change its behavior when its internal state changes
+	- state-specific behavior should be defined independently. That is, adding new states should not affect the behavior of existing states.
+	
+	C# example
+	
+	
+	(4)
