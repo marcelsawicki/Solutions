@@ -56,13 +56,13 @@
     <Compile Include="Model\Laptop\LaptopComponentsFactory.cs" />
     <Compile Include="Model\Laptop\GraphForLaptop.cs" />
     <Compile Include="Model\Laptop\LaptopComputer.cs" />
-    <Compile Include="Model\Laptop\ProcesorDlaLaptopa.cs" />
-    <Compile Include="Model\PC\ChlodzenieDlaPC.cs" />
-    <Compile Include="Model\PC\DyskDlaPC.cs" />
-    <Compile Include="Model\PC\FabrykaPodzespolowPC.cs" />
-    <Compile Include="Model\PC\GrafikaDlaPC.cs" />
-    <Compile Include="Model\PC\KomputerPC.cs" />
-    <Compile Include="Model\PC\ProcesorDlaPC.cs" />
+    <Compile Include="Model\Laptop\ProcessorForLaptop.cs" />
+    <Compile Include="Model\PC\CoolerForPC.cs" />
+    <Compile Include="Model\PC\DriveForPC.cs" />
+    <Compile Include="Model\PC\PCComponentsFactory.cs" />
+    <Compile Include="Model\PC\GraphForPC.cs" />
+    <Compile Include="Model\PC\PCComputer.cs" />
+    <Compile Include="Model\PC\ProcessorForPC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
