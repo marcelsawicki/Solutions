@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace FactoryApp1.Model.PC
 {
-    class GrafikaDlaPC : IGrafika
+    class GrafikaDlaPC : IGraph
     {
         private string name = "Grafika dla PC";
 
-        public IGrafika DostarczGrafike()
+        public IGraph DostarczGrafike()
         {
             Console.WriteLine("Dodaje: " + name);
             return new GrafikaDlaPC();

@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace FactoryApp1.Model.Laptop
 {
-    class FabrykaPodzespolowLaptop : IFabrykaPodzespolowKomputerowych
+    class FabrykaPodzespolowLaptop : IComponentsFactory
     {
-        public IDysk ProdukujDysk()
+        public IDrive ProdukujDysk()
         {
             return new DyskDlaLaptopa();
         }
 
-        public IGrafika ProdukujGrafike()
+        public IGraph ProdukujGrafike()
         {
             return new GrafikaDlaLaptopa();
         }
@@ -24,12 +24,12 @@ namespace FactoryApp1.Model.Laptop
             return new DDR3();
         }
 
-        public IProcesor ProdukujProcesor()
+        public IProcessor ProdukujProcesor()
         {
             return new ProcesorDlaLaptopa();
         }
 
-        public IChlodzenie ProdukujChlodzenie()
+        public ICooler ProdukujChlodzenie()
         {
             return new ChlodzenieDlaLaptopa();
         }

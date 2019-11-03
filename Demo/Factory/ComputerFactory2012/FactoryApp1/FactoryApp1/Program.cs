@@ -12,14 +12,14 @@ namespace FactoryApp1
     {
         static void Main(string[] args)
         {
-            FabrykaKomputerow fabrykaKomputerow = new FabrykaKomputerow();
+            ComputersFactory computersFactory = new ComputersFactory();
 
             Console.ForegroundColor = ConsoleColor.Black;
             Console.BackgroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("PC");
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Komputer pc = fabrykaKomputerow.WydajKomputer("PC");
+            Computer pc = computersFactory.GetComputer("PC");
 
             Console.WriteLine("\n\n");
 
@@ -28,7 +28,7 @@ namespace FactoryApp1
             Console.WriteLine("Laptop");
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Komputer laptop = fabrykaKomputerow.WydajKomputer("Laptop");
+            Computer laptop = computersFactory.GetComputer("Laptop");
 
             Console.ReadLine();
         }

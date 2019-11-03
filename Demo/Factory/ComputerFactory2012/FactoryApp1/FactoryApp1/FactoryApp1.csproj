@@ -41,12 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\Abstract\Komputer.cs" />
-    <Compile Include="Common\IChlodzenie.cs" />
-    <Compile Include="Common\IDysk.cs" />
-    <Compile Include="Common\IFabrykaPodzespolowKomputerowych.cs" />
-    <Compile Include="Common\IGrafika.cs" />
-    <Compile Include="Common\IProcesor.cs" />
+    <Compile Include="Common\Abstract\Computer.cs" />
+    <Compile Include="Common\ICooler.cs" />
+    <Compile Include="Common\IDrive.cs" />
+    <Compile Include="Common\IComponentsFactory.cs" />
+    <Compile Include="Common\IGraph.cs" />
+    <Compile Include="Common\IProcessor.cs" />
     <Compile Include="Common\IRam.cs" />
     <Compile Include="Model\DDR2.cs" />
     <Compile Include="Model\DDR3.cs" />

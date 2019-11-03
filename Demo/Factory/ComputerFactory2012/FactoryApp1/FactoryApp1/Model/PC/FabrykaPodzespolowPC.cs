@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace FactoryApp1.Model.PC
 {
-    class FabrykaPodzespolowPC : IFabrykaPodzespolowKomputerowych
+    class FabrykaPodzespolowPC : IComponentsFactory
     {
-        public IDysk ProdukujDysk()
+        public IDrive ProdukujDysk()
         {
             return new DyskDlaPC();
         }
 
-        public IGrafika ProdukujGrafike()
+        public IGraph ProdukujGrafike()
         {
             return new GrafikaDlaPC();
         }
@@ -24,12 +24,12 @@ namespace FactoryApp1.Model.PC
             return new DDR2();
         }
 
-        public IProcesor ProdukujProcesor()
+        public IProcessor ProdukujProcesor()
         {
             return new ProcesorDlaPC();
         }
 
-        public IChlodzenie ProdukujChlodzenie()
+        public ICooler ProdukujChlodzenie()
         {
             return new ChlodzenieDlaPC();
         }

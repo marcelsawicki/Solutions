@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace FactoryApp1.Model.PC
 {
-    class ChlodzenieDlaPC : IChlodzenie
+    class ChlodzenieDlaPC : ICooler
     {
         private string name = "Chlodzenie dla PC";
 
-        public IChlodzenie DostarczChlodzenie()
+        public ICooler DostarczChlodzenie()
         {
             Console.WriteLine("Dodaje: " + name);
             return new ChlodzenieDlaPC();

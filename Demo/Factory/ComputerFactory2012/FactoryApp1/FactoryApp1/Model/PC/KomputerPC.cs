@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace FactoryApp1.Model.PC
 {
-    class KomputerPC : Komputer
+    class KomputerPC : Computer
     {
-        private readonly IFabrykaPodzespolowKomputerowych _fabrykaPodzespolowKomputerowych;
+        private readonly IComponentsFactory _fabrykaPodzespolowKomputerowych;
 
-        public KomputerPC(IFabrykaPodzespolowKomputerowych fabrykaPodzespolowKomputerowych)
+        public KomputerPC(IComponentsFactory fabrykaPodzespolowKomputerowych)
         {
             _fabrykaPodzespolowKomputerowych = fabrykaPodzespolowKomputerowych;
             Skladanie();

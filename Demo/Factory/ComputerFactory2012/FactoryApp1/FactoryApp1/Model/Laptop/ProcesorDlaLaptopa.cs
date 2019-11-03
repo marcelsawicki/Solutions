@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace FactoryApp1.Model
 {
-    class ProcesorDlaLaptopa : IProcesor
+    class ProcesorDlaLaptopa : IProcessor
     {
         private string name = "Procesor dla laptopa";
 
-        public IProcesor DostarczProcesor()
+        public IProcessor DostarczProcesor()
         {
             Console.WriteLine("Dodaje: " + name);
             return new ProcesorDlaLaptopa();

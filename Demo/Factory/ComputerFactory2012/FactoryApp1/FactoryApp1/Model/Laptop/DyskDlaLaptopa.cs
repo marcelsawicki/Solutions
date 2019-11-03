@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace FactoryApp1.Model
 {
-    class DyskDlaLaptopa : IDysk
+    class DyskDlaLaptopa : IDrive
     {
         private string name = "Dysk dla laptopa";
 
-        public IDysk DostarczDysk()
+        public IDrive DostarczDysk()
         {
             Console.WriteLine("Dodaje: " + name);
             return new DyskDlaLaptopa();
