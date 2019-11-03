@@ -11,9 +11,9 @@ namespace FactoryApp1.Model
     {
         private string name = "DDR2";
 
-        public IRam DostarczRam()
+        public IRam DeliverRam()
         {
-            Console.WriteLine("Dodaje: " + name);
+            Console.WriteLine("Add: " + name);
             return new DDR2();
         }
     }

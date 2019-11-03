@@ -8,6 +8,6 @@ namespace FactoryApp1.Common
 {
     interface IRam
     {
-        IRam DostarczRam();
+        IRam DeliverRam();
     }
 }

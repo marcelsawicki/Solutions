@@ -9,11 +9,11 @@ namespace FactoryApp1.Model.PC
 {
     class ChlodzenieDlaPC : ICooler
     {
-        private string name = "Chlodzenie dla PC";
+        private string name = "Cooler for PC";
 
-        public ICooler DostarczChlodzenie()
+        public ICooler DeliverCooler()
         {
-            Console.WriteLine("Dodaje: " + name);
+            Console.WriteLine("Add: " + name);
             return new ChlodzenieDlaPC();
         }
     }

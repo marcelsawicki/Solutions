@@ -15,16 +15,16 @@ namespace FactoryApp1.Model.PC
         public KomputerPC(IComponentsFactory fabrykaPodzespolowKomputerowych)
         {
             _fabrykaPodzespolowKomputerowych = fabrykaPodzespolowKomputerowych;
-            Skladanie();
+            Assembly();
         }
 
-        public override void Skladanie()
+        public override void Assembly()
         {
-            dysk = _fabrykaPodzespolowKomputerowych.ProdukujDysk().DostarczDysk();
-            grafika = _fabrykaPodzespolowKomputerowych.ProdukujGrafike().DostarczGrafike();
-            procesor = _fabrykaPodzespolowKomputerowych.ProdukujProcesor().DostarczProcesor();
-            ram = _fabrykaPodzespolowKomputerowych.ProdukujRam().DostarczRam();
-            chlodzenie = _fabrykaPodzespolowKomputerowych.ProdukujChlodzenie().DostarczChlodzenie();
+            dysk = _fabrykaPodzespolowKomputerowych.ProduceDrive().DeliverDrive();
+            grafika = _fabrykaPodzespolowKomputerowych.ProduceGraph().DeliverGraph();
+            procesor = _fabrykaPodzespolowKomputerowych.ProduceProcessor().DeliverProcessor();
+            ram = _fabrykaPodzespolowKomputerowych.ProduceRam().DeliverRam();
+            chlodzenie = _fabrykaPodzespolowKomputerowych.ProduceCooler().DeliverCooler();
         }
     }
 }

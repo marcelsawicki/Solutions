@@ -9,27 +9,27 @@ namespace FactoryApp1.Model.PC
 {
     class FabrykaPodzespolowPC : IComponentsFactory
     {
-        public IDrive ProdukujDysk()
+        public IDrive ProduceDrive()
         {
             return new DyskDlaPC();
         }
 
-        public IGraph ProdukujGrafike()
+        public IGraph ProduceGraph()
         {
             return new GrafikaDlaPC();
         }
 
-        public IRam ProdukujRam()
+        public IRam ProduceRam()
         {
             return new DDR2();
         }
 
-        public IProcessor ProdukujProcesor()
+        public IProcessor ProduceProcessor()
         {
             return new ProcesorDlaPC();
         }
 
-        public ICooler ProdukujChlodzenie()
+        public ICooler ProduceCooler()
         {
             return new ChlodzenieDlaPC();
         }

@@ -9,11 +9,11 @@ namespace FactoryApp1.Model
 {
     class ProcesorDlaLaptopa : IProcessor
     {
-        private string name = "Procesor dla laptopa";
+        private string name = "Processor for laptop";
 
-        public IProcessor DostarczProcesor()
+        public IProcessor DeliverProcessor()
         {
-            Console.WriteLine("Dodaje: " + name);
+            Console.WriteLine("Add: " + name);
             return new ProcesorDlaLaptopa();
         }
     }

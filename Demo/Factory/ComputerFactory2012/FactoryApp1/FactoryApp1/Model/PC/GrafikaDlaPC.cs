@@ -9,11 +9,11 @@ namespace FactoryApp1.Model.PC
 {
     class GrafikaDlaPC : IGraph
     {
-        private string name = "Grafika dla PC";
+        private string name = "Graph for PC";
 
-        public IGraph DostarczGrafike()
+        public IGraph DeliverGraph()
         {
-            Console.WriteLine("Dodaje: " + name);
+            Console.WriteLine("Add: " + name);
             return new GrafikaDlaPC();
         }
     }

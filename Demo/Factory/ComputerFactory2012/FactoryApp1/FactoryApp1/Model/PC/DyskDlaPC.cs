@@ -9,11 +9,11 @@ namespace FactoryApp1.Model.PC
 {
     class DyskDlaPC : IDrive
     {
-        private string name = "Dysk dla PC";
+        private string name = "Drive for PC";
 
-        public IDrive DostarczDysk()
+        public IDrive DeliverDrive()
         {
-            Console.WriteLine("Dodaje: " + name);
+            Console.WriteLine("Add: " + name);
             return new DyskDlaPC();
         }
     }

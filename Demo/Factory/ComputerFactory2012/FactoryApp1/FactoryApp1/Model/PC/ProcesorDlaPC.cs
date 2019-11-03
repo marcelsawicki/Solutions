@@ -9,11 +9,11 @@ namespace FactoryApp1.Model.PC
 {
     class ProcesorDlaPC : IProcessor
     {
-        private string name = "Procesor dla PC";
+        private string name = "Processor for PC";
 
-        public IProcessor DostarczProcesor()
+        public IProcessor DeliverProcessor()
         {
-            Console.WriteLine("Dodaje: " + name);
+            Console.WriteLine("Add: " + name);
             return new ProcesorDlaPC();
         }
     }
