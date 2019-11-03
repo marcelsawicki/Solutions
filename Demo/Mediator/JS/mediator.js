@@ -39,7 +39,7 @@ var mediator = {
 		players.guest = new Player('Guests');
 	},
 	
-	// ktos zagral uaktualnij wynikow
+	// if someone played then update score
 	played: function() {
 		var players = this.players,
 		score = {
