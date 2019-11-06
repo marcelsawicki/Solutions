@@ -1,5 +1,0 @@
-C:\Users\Marcel\Desktop\Design-patterns\Demo\Strategy\CSharp\Startegy2012\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-C:\Users\Marcel\Desktop\Design-patterns\Demo\Strategy\CSharp\Startegy2012\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-C:\Users\Marcel\Desktop\Design-patterns\Demo\Strategy\CSharp\Startegy2012\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-C:\Users\Marcel\Desktop\Design-patterns\Demo\Strategy\CSharp\Startegy2012\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-C:\Users\Marcel\Desktop\Design-patterns\Demo\Strategy\CSharp\Startegy2012\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
