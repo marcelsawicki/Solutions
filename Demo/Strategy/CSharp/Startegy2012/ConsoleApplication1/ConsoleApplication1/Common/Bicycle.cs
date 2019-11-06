@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-	class Samochod : IDrive
+	class Bicycle : IDrive
 	{
-        public void Dojezdzaj()
-        {
-            Console.WriteLine("Dojazd: samochod.");
-        }
+		public void Drive()
+		{
+			Console.WriteLine("Drive: bicycles.");
+		}
 	}
 }

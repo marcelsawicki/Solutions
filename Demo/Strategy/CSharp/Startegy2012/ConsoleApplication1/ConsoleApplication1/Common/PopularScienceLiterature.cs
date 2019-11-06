@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-	class LiteraturaPopularnoNaukowa : ISpendFreeTime
+	class PopularScienceLiterature : ISpendFreeTime
 	{
-        public void SpedzajWolnyCzas()
+        public void SpendFreeTime()
         {
-            Console.WriteLine("Wolny czas: literatura popularno naukowa.");
+            Console.WriteLine("Free time: popular science literature.");
         }
 	}
 }

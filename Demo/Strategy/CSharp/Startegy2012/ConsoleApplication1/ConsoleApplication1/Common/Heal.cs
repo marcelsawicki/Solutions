@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-	class Leczenie : IWork
+	class Heal : IWork
 	{
         public void Work()
         {

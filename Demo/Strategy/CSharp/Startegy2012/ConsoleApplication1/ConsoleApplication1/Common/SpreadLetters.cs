@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-	class RoznoszenieListow : IWork
+	class SpreadLetters : IWork
 	{
 		public void Work()
 		{
-			Console.WriteLine("Praca: Roznosi listy.");
+			Console.WriteLine("Work: spread letters.");
 		}
 	}
 }

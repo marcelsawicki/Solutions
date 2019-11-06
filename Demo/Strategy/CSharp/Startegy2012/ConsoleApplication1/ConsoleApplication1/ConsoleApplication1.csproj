@@ -41,17 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\Interfaces\IDojezdzac.cs" />
-    <Compile Include="Common\Interfaces\IPracowac.cs" />
-    <Compile Include="Common\Interfaces\ISpedzanieWolnegoCzasu.cs" />
-    <Compile Include="Common\Leczenie.cs" />
-    <Compile Include="Common\LiteraturaPopularnoNaukowa.cs" />
-    <Compile Include="Common\NaprawaSamochodow.cs" />
-    <Compile Include="Common\Rower.cs" />
-    <Compile Include="Common\RoznoszenieListow.cs" />
-    <Compile Include="Common\Samochod.cs" />
-    <Compile Include="Common\Silownia.cs" />
-    <Compile Include="Pracownik.cs" />
+    <Compile Include="Common\Interfaces\IDrive.cs" />
+    <Compile Include="Common\Interfaces\IWork.cs" />
+    <Compile Include="Common\Interfaces\ISpendFreeTime.cs" />
+    <Compile Include="Common\Heal.cs" />
+    <Compile Include="Common\PopularScienceLiterature.cs" />
+    <Compile Include="Common\FixCars.cs" />
+    <Compile Include="Common\Bicycle.cs" />
+    <Compile Include="Common\SpreadLetters.cs" />
+    <Compile Include="Common\Car.cs" />
+    <Compile Include="Common\Gym.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

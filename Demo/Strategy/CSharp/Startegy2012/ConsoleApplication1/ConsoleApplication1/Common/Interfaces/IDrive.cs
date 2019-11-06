@@ -8,6 +8,6 @@ namespace ConsoleApplication1
 {
 	interface IDrive
 	{
-		void Dojezdzaj();
+		void Drive();
 	}
 }

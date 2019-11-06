@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-	class Rower : IDrive
+	public class Gym : ISpendFreeTime
 	{
-		public void Dojezdzaj()
-		{
-			Console.WriteLine("Dojazd: rower.");
-		}
+        public void SpendFreeTime()
+        {
+            Console.WriteLine("Free time: gym.");
+        }
 	}
 }

@@ -17,28 +17,28 @@ namespace ConsoleApplication1
 			if ((occupation.ToUpper()).Equals("MECHANIC"))
 			{
                 work = new FixCars();
-                drive = new Samochod();
-                spendFreeTime = new Silownia();
+                drive = new Car();
+                spendFreeTime = new Gym();
 			}
 			else if ((occupation.ToUpper()).Equals("DOCTOR"))
 			{
-                work = new Leczenie();
-                drive = new Samochod();
-                spendFreeTime = new LiteraturaPopularnoNaukowa();
+                work = new Heal();
+                drive = new Car();
+                spendFreeTime = new PopularScienceLiterature();
 			}
 			else if ((occupation.ToUpper()).Equals("POSTMAN"))
 			{
-				work = new RoznoszenieListow();
-				drive = new Rower();
-                spendFreeTime = new Silownia();
+				work = new SpreadLetters();
+				drive = new Bicycle();
+                spendFreeTime = new Gym();
 			}
 		}
 
         public void Methods()
         {
             work.Work();
-            drive.Dojezdzaj();
-            spendFreeTime.SpedzajWolnyCzas();
+            drive.Drive();
+            spendFreeTime.SpendFreeTime();
         }
     }
 }

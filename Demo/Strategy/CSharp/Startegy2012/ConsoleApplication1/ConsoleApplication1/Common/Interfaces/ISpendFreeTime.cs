@@ -8,6 +8,6 @@ namespace ConsoleApplication1
 {
 	interface ISpendFreeTime
 	{
-		void SpedzajWolnyCzas();
+		void SpendFreeTime();
 	}
 }
