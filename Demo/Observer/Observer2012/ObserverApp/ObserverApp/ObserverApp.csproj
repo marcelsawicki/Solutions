@@ -41,12 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IObserwator.cs" />
-    <Compile Include="IObserwowany.cs" />
-    <Compile Include="Pasazer.cs" />
+    <Compile Include="IObserver.cs" />
+    <Compile Include="IObserved.cs" />
+    <Compile Include="Passenger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Winda.cs" />
+    <Compile Include="Lift.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

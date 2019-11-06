@@ -11,16 +11,16 @@ namespace ObserverApp
         static void Main(string[] args)
         {
             Console.WriteLine("Design pattern: Observer.");
-            Winda winda = new Winda();
-            Pasazer pasazer = new Pasazer();
-            winda.LosujPietro();
-            winda.DodajObserwatora(pasazer);
-            winda.PowiadamiajObserwatorow();
-            pasazer.Informuj();
+            Lift lift = new Lift();
+            Passenger passenger = new Passenger();
+            lift.RandomFloor();
+            lift.AddObserver(passenger);
+            lift.InformObservers();
+            passenger.Inform();
 
-            winda.LosujPietro();
-            winda.PowiadamiajObserwatorow();
-            pasazer.Informuj();
+            lift.RandomFloor();
+            lift.InformObservers();
+            passenger.Inform();
             Console.ReadKey();
         }
     }
