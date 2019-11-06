@@ -8,7 +8,7 @@ namespace ConsoleApplication1
 {
 	class RoznoszenieListow : IWork
 	{
-		public void Pracuj()
+		public void Work()
 		{
 			Console.WriteLine("Praca: Roznosi listy.");
 		}

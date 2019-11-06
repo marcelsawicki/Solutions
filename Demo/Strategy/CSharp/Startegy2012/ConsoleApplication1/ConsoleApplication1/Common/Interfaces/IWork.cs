@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-	class NaprawaSamochodow : IWork
+	interface IWork
 	{
-        public void Pracuj()
-        {
-            Console.WriteLine("Praca: naprawia samochody.");
-        }
+		void Work();
 	}
 }

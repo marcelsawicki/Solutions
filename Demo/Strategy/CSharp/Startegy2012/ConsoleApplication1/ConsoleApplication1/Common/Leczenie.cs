@@ -8,9 +8,9 @@ namespace ConsoleApplication1
 {
 	class Leczenie : IWork
 	{
-        public void Pracuj()
+        public void Work()
         {
-            Console.WriteLine("Praca: leczy ludzi.");
+            Console.WriteLine("Work: heal the people.");
         }
 	}
 }

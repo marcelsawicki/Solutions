@@ -16,7 +16,7 @@ namespace ConsoleApplication1
 		{
 			if ((occupation.ToUpper()).Equals("MECHANIC"))
 			{
-                work = new NaprawaSamochodow();
+                work = new FixCars();
                 drive = new Samochod();
                 spendFreeTime = new Silownia();
 			}
@@ -36,7 +36,7 @@ namespace ConsoleApplication1
 
         public void Methods()
         {
-            work.Pracuj();
+            work.Work();
             drive.Dojezdzaj();
             spendFreeTime.SpedzajWolnyCzas();
         }
