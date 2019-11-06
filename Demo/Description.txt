@@ -64,6 +64,3 @@ Design Patterns: Elements of Reusable Object-Oriented Software
 	- state-specific behavior should be defined independently. That is, adding new states should not affect the behavior of existing states.
 	
 	C# example
-	
-	
-	(4)
