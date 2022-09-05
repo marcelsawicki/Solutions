@@ -1,0 +1,83 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_az204vm_name": {
+            "defaultValue": "az204vm",
+            "type": "String"
+        },
+        "disks_az204vm_disk1_74f6f375d3ae4bf6a5c98be96d6c1da2_externalid": {
+            "defaultValue": "/subscriptions/a926dda8-0e55-4242-80be-77585c5aaaba/resourceGroups/az204-vm-rg/providers/Microsoft.Compute/disks/az204vm_disk1_74f6f375d3ae4bf6a5c98be96d6c1da2",
+            "type": "String"
+        },
+        "networkInterfaces_az204vmVMNic_externalid": {
+            "defaultValue": "/subscriptions/a926dda8-0e55-4242-80be-77585c5aaaba/resourceGroups/az204-vm-rg/providers/Microsoft.Network/networkInterfaces/az204vmVMNic",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('virtualMachines_az204vm_name')]",
+            "location": "westeurope",
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "Standard_DS1_v2"
+                },
+                "storageProfile": {
+                    "imageReference": {
+                        "publisher": "Canonical",
+                        "offer": "UbuntuServer",
+                        "sku": "18.04-LTS",
+                        "version": "latest"
+                    },
+                    "osDisk": {
+                        "osType": "Linux",
+                        "name": "[concat(parameters('virtualMachines_az204vm_name'), '_disk1_74f6f375d3ae4bf6a5c98be96d6c1da2')]",
+                        "createOption": "FromImage",
+                        "caching": "ReadWrite",
+                        "managedDisk": {
+                            "storageAccountType": "Premium_LRS",
+                            "id": "[parameters('disks_az204vm_disk1_74f6f375d3ae4bf6a5c98be96d6c1da2_externalid')]"
+                        },
+                        "deleteOption": "Detach",
+                        "diskSizeGB": 30
+                    },
+                    "dataDisks": []
+                },
+                "osProfile": {
+                    "computerName": "[parameters('virtualMachines_az204vm_name')]",
+                    "adminUsername": "azureuser",
+                    "linuxConfiguration": {
+                        "disablePasswordAuthentication": true,
+                        "ssh": {
+                            "publicKeys": [
+                                {
+                                    "path": "/home/azureuser/.ssh/authorized_keys",
+                                    "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWb/2uk1BPyJ5O9DUhfgZwse4IEM5zj+tYm4JiDqOX1Vwphmg2m5xRd1uA+hchmS1jPsJwjg+V00AqH7vDfk23ZGC31br1Gg9vRXHukzlK5wi1NtDK0vSE4brwXbq6RQlABAWE2qJYyj2cgY8coC1yL6sOeUbLkWzAZ4RmkTPb1fH3cHSrr4mLKHcZXsfV/oK5apyPDUIQ05o5cSsOPFs8Os7oEehVJTmxH1NVOzOy4zHqJnkQg2oThiIeA0AeszbqfwN1woHF/I5OJkb1j97wLwkjHgy4eCnC+gcQ3k/4fgpSBMkRQkU1T2DXWsyUXPWdkfC8Q8XCRibzbk3vKEvz"
+                                }
+                            ]
+                        },
+                        "provisionVMAgent": true,
+                        "patchSettings": {
+                            "patchMode": "ImageDefault",
+                            "assessmentMode": "ImageDefault"
+                        }
+                    },
+                    "secrets": [],
+                    "allowExtensionOperations": true,
+                    "requireGuestProvisionSignal": true
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[parameters('networkInterfaces_az204vmVMNic_externalid')]"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
