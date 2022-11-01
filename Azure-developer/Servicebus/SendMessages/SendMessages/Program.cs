@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Azure.Messaging.ServiceBus;
 
-public class Program 
+public class Program
 {
     // connection string to your Service Bus namespace
     static string connectionString = "";
