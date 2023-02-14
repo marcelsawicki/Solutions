@@ -1,5 +1,8 @@
-﻿namespace MapsterApp3.Model
+﻿using Mapster;
+
+namespace MapsterApp3.Model
 {
+    [AdaptTo("[name]Dto"), GenerateMapper]
     public class Order
     {
         public int Id { get; set; }

@@ -1,6 +1,9 @@
-﻿namespace MapsterApp3.Dtos
+using System.Collections.Generic;
+using MapsterApp3.Model;
+
+namespace MapsterApp3.Model
 {
-    public class OrderDto
+    public partial class OrderDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
