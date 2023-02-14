@@ -1,6 +1,6 @@
-﻿namespace MapsterApp3.Dtos
+namespace MapsterApp3.Model
 {
-    public class OrderLineDto
+    public partial class OrderLineDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

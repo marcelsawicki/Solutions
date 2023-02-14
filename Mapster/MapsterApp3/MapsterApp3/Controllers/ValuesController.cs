@@ -1,5 +1,4 @@
 ﻿using Mapster;
-using MapsterApp3.Dtos;
 using MapsterApp3.Model;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
@@ -13,7 +12,6 @@ namespace MapsterApp3.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private Order _order { get; set; }
         
         // GET: api/<ValuesController>
         [HttpGet]
@@ -26,16 +24,10 @@ namespace MapsterApp3.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            _order = Order.Create(1, "test");
-            var destination = GetDestination();
-            string jsonString = JsonSerializer.Serialize(destination);
-            return jsonString;
+           // string jsonString = JsonSerializer.Serialize(destination);
+            return "value";
         }
 
-        private object GetDestination()
-        {
-            return _order.Adapt<OrderDto>();
-        }
 
         // POST api/<ValuesController>
         [HttpPost]
