@@ -3,6 +3,7 @@ using MapsterApp3.Model;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Module.Domain;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -24,7 +25,8 @@ namespace MapsterApp3.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-           // string jsonString = JsonSerializer.Serialize(destination);
+            // string jsonString = JsonSerializer.Serialize(destination);
+            var invoice = new Invoice();
             return "value";
         }
 

@@ -1,9 +1,12 @@
-﻿using Mapster;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace MapsterApp3.Model
+namespace Module.Domain
 {
-    [AdaptTo("[name]Dto"), GenerateMapper]
-    public class OrderLine
+    public class InvoiceLine
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
