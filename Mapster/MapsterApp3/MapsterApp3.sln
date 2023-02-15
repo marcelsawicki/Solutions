@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapsterApp3", "MapsterApp3\MapsterApp3.csproj", "{FF940EDF-2A62-438F-AC16-32CE4A3025AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapsterApp3", "MapsterApp3\MapsterApp3.csproj", "{FF940EDF-2A62-438F-AC16-32CE4A3025AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{5A4F531B-FA27-43E6-9559-78B87130C056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settlement", "Settlement", "{FAEBEBBB-5C87-49DD-B361-7FCA7D60B22C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settlement.Application", "MapsterApp3\Modules\Settlement\Settlement.Application\Settlement.Application.csproj", "{95E4E283-3437-496D-955F-1EFE3B135328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settlement.Domain", "MapsterApp3\Modules\Settlement\Settlement.Domain\Settlement.Domain.csproj", "{BC05688A-7901-42EA-B172-3134B8A9948A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settlement.Infrastructure", "MapsterApp3\Modules\Settlement\Settlement.Infrastructure\Settlement.Infrastructure.csproj", "{0B4A7711-2203-409B-97E2-E8537F031938}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,27 @@ Global
 		{FF940EDF-2A62-438F-AC16-32CE4A3025AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF940EDF-2A62-438F-AC16-32CE4A3025AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF940EDF-2A62-438F-AC16-32CE4A3025AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E4E283-3437-496D-955F-1EFE3B135328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E4E283-3437-496D-955F-1EFE3B135328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E4E283-3437-496D-955F-1EFE3B135328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E4E283-3437-496D-955F-1EFE3B135328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC05688A-7901-42EA-B172-3134B8A9948A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC05688A-7901-42EA-B172-3134B8A9948A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC05688A-7901-42EA-B172-3134B8A9948A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC05688A-7901-42EA-B172-3134B8A9948A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4A7711-2203-409B-97E2-E8537F031938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4A7711-2203-409B-97E2-E8537F031938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4A7711-2203-409B-97E2-E8537F031938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4A7711-2203-409B-97E2-E8537F031938}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAEBEBBB-5C87-49DD-B361-7FCA7D60B22C} = {5A4F531B-FA27-43E6-9559-78B87130C056}
+		{95E4E283-3437-496D-955F-1EFE3B135328} = {FAEBEBBB-5C87-49DD-B361-7FCA7D60B22C}
+		{BC05688A-7901-42EA-B172-3134B8A9948A} = {FAEBEBBB-5C87-49DD-B361-7FCA7D60B22C}
+		{0B4A7711-2203-409B-97E2-E8537F031938} = {FAEBEBBB-5C87-49DD-B361-7FCA7D60B22C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C62C6948-AA07-4F69-AF3D-217B3FDC22F9}
